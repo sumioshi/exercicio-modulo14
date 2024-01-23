@@ -1,0 +1,77 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+/* From https://css.glass */
+background: rgba(36, 36, 36, 0.15);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+border: 1px solid rgba(36, 36, 36, 1);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #1a4a6e; /* Cor de destaque para link ativo */
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+    color: #1a4a6e; /* Cor de destaque para títulos */
+}
+
+#sobre-o-restaurante,
+#fale-conosco {
+    background-color: #f8f8f8;
+}
+
+.text-colored {
+    color: rgb(0, 0, 0);
+}
+
+.nav-link.active,
+#fale-conosco button {
+    background-color: #1a4a6e;
+    color: #fff; 
+}
+
+.content-container {
+    text-align: left; /* Centraliza o conteúdo dentro da div */
+    cursor: pointer;
+}
+
+.content-container img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    height: 50px; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas à imagem */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #1a4a6e; /* Cor de destaque para links sociais */
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
